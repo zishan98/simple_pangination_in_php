@@ -62,7 +62,7 @@
                     <div class="single-blog-card card border-0 shadow-sm">
                         <div class="blog-img position-relative">
                         <a href="blog_details.php?id=<?= $row['id'] ?>">
-                            <img src="swiffyadmin/blog-image/<?= $row['images']?>" class="card-img-top" width="350" height="233" alt="blog">
+                            <img src="folder_name/<?= $row['images']?>" class="card-img-top" width="350" height="233" alt="blog">
                         </a>
                             <div class="meta-date">
                                 <strong><?= date( 'd', strtotime($row['post_date'])) ?></strong>
